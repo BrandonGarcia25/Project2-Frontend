@@ -1,4 +1,4 @@
-import coffeeProLogo from '../assets/logo-coffee-pro.png'
+import coffeeProLogo from '../assets/logo-coffee-pro2.png'
 
 const Header = () => {
     return (

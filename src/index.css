@@ -2,12 +2,19 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  font:Gurmukhi; /*-apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+    sans-serif;*/
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.whiteBlock{
+  width: 100px;
+  height: 100px; 
+}
+
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
@@ -16,10 +23,6 @@ code {
 
 .App {
   text-align: center;
-}
-
-.page-img {
-  width: 70%;
 }
 
 .Navbar {
@@ -40,10 +43,6 @@ code {
   color: white;
 }
 
-.Cart-icon {
-  width: 35px;
-}
-
 .Footer {
   background:  #6F4E37;
   width: 100%;
@@ -58,6 +57,7 @@ code {
   float: left;
   width: 33.33%;
 }
+
 
 /* Clear floats after the columns */
 .row:after {
@@ -78,27 +78,24 @@ code {
 }
 
 .coffeeBeans {
-  width: 75px;
-  height: 75px;
+  width: 100px;
+  height: 125px;
 }
 
+
 .coffeeProLogo {
-  width: 13%; 
+  width: 20%; 
 }
 
 .ProductColumn {
   float: left;
   width: 30.0%;
-  margin: 10px; 
+  margin: 15px; 
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   text-align:center; 
+  color: black;
 }
 
-
-.ProjectCard h3::after {
-  content: url("https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/m3/icon-expand.png");
-  margin-left: 5px;
-}
 
 .card {
   width: 400px;
@@ -109,3 +106,4 @@ code {
   background: #94a7c8;
   border-radius: 4px;
 }
+
